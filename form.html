@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>폼태그 연습</title>
+    </head>
+    <body>
+        <h1>보이스피싱!! 아이디와 비밀밀번호 해킹시도중</h1>
+        <form action="#" method="get">
+            이름 :  
+            <input type="text" name="uname"><br>
+            아이디 :
+            <input type="text" name="uid">
+            <input type="submit" value="중복확인"/><br>
+            비밀번호 :
+            <input type="password" name="up"><br>
+            파일첨부 :
+            <input type="file" name="files"><br>
+            성별구분 :
+            <input type="radio" name="gender" value="m">남자이다,
+            <input type="radio" name="gender" value="w">여자이다
+            <br>
+
+            사용언어 :
+            <input type="checkbox" name="lan" value="kor" checked="checked"/>한글,
+            <input type="checkbox" name="lan" value="eng"/>영어,
+            <input type="checkbox" name="lan" value="jap"/>일어,
+            <input type="checkbox" name="lan" value="chi"/>중국어<br/>
+
+            자기소개 : 
+            <textarea rows="10" cols="30"> 간단하게 자기소개 하세요</textarea>
+            <br/>
+            <br/>
+            국적<select>
+                <option>한국</option>
+                <option>중국</option>
+                <option>미국</option>
+                <option>일본</option>
+            </select>
+            <br/>
+
+            좋아하는 음식<select multiple="multiple">
+                <option>김치</option>
+                <option>불고기</option>
+                <option>전</option>
+                <option>레고</option>
+            </select>
+            <br/>
+
+
+            <input type="submit" value="전송ㅋ"/>
+            <input type="reset" value="리셋ㅋ"/>
+        </form>
+    </body>
+</html>
